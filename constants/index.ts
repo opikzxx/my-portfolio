@@ -19,7 +19,7 @@ import {
 } from "@/types";
 
 export const PROFILE = {
-  name: "Muhammad Taufik Heryunanto",
+  name: "Taufik Heryunanto",
   role: "Frontend / Fullstack Web Developer",
   avatar: "👨‍💻",
   status: "online",
