@@ -1,15 +1,10 @@
 "use client";
 
-import { BookOpen, FileText, Download } from "lucide-react";
+import { BookOpen, FileText } from "lucide-react";
 import { EDUCATION, EXPERIENCE } from "@/constants";
 import { SectionHeader } from "@/components/ui/section-header";
-import { Button } from "@/components/ui/button";
 
 export default function Resume() {
-  const handleDownloadCV = () => {
-    console.log("Download CV clicked");
-  };
-
   return (
     <article className="animate-fade-up">
       <SectionHeader title="Resume" />
@@ -115,24 +110,6 @@ export default function Resume() {
           ))}
         </ol>
       </section>
-
-      {/* DOWNLOAD BUTTON */}
-      <div className="flex justify-center md:justify-start">
-        <Button
-          onClick={handleDownloadCV}
-          icon={<Download className="h-4 w-4" />}
-          iconPosition="left"
-          className="
-            bg-[#f0b429] text-black
-            hover:bg-[#ffcc4d]
-            transition-all duration-300
-            hover:scale-105
-            shadow-[0_5px_20px_rgba(240,180,41,0.3)]
-          "
-        >
-          Download CV
-        </Button>
-      </div>
     </article>
   );
 }
