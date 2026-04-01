@@ -33,7 +33,7 @@ export interface Experience {
 export interface Project {
   title: string;
   category: string;
-  url: string;
+  url?: string;
   images: string[];
   techStack: string[];
   description: string;
