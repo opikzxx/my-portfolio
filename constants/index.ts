@@ -205,7 +205,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Logisfy",
     category: "Web & Andorid",
-    url: "#",
+    url: "https://logisfy.io",
     images: [
       "/project/logisfy.jpg",
       "/project/logisfy-2.jpg",
@@ -218,7 +218,6 @@ export const PROJECTS: Project[] = [
   {
     title: "Innogem",
     category: "Web",
-    url: "#",
     images: ["./project/innogem-1.jpeg", "./project/innogem-2.jpg"],
     techStack: ["Next.js", "Golang", "E-Commerce"],
     description:
