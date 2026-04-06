@@ -169,7 +169,7 @@ export const EXPERIENCE: Experience[] = [
 export const PROJECTS: Project[] = [
   {
     title: "Info Kesenian",
-    category: "Web development",
+    category: "Web",
     images: ["/project/kesenian-1.jpg", "/project/kesenian-2.jpg"],
     techStack: ["Next.js", "Laravel", "Leaflet", "PWA"],
     description:
@@ -178,7 +178,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "Indorich Registration",
-    category: "Web development",
+    category: "Web",
     images: ["/project/indorich-1.jpg", "/project/indorich-2.jpg"],
     techStack: ["Next.js", "Golang", "WhatsApp Gateway"],
     description:
@@ -186,8 +186,17 @@ export const PROJECTS: Project[] = [
     url: "https://indorichregistration.com/",
   },
   {
+    title: "Bytester",
+    category: "Web",
+    images: ["/project/bytester-1.jpg", "/project/bytester-2.jpg"],
+    techStack: ["Next.js", "Golang", "Payment Gateway"],
+    description:
+      "An integrated app distribution and testing platform that simplifies the deployment of mobile applications for Play Store and App Store reviewers.",
+    url: "https://bytester.id",
+  },
+  {
     title: "Tracker Driver Test",
-    category: "Web development",
+    category: "Web",
     images: ["/project/tracker.jpg"],
     techStack: ["Next.js", "Websocket", "Leaflet", "Golang"],
     description:
@@ -195,7 +204,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "Logisfy",
-    category: "Web development & Andorid",
+    category: "Web & Andorid",
     url: "#",
     images: [
       "/project/logisfy.jpg",
@@ -208,7 +217,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "Innogem",
-    category: "Web development",
+    category: "Web",
     url: "#",
     images: ["./project/innogem-1.jpeg", "./project/innogem-2.jpg"],
     techStack: ["Next.js", "Golang", "E-Commerce"],
