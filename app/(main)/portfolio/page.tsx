@@ -88,6 +88,7 @@ export default function Portfolio() {
       </article>
 
       <ProjectDialog
+        key={selectedProject?.title}
         project={selectedProject}
         isOpen={isDialogOpen}
         onClose={handleCloseDialog}
